@@ -69,7 +69,9 @@ $posts = selectAll('posts', ['published' => 1]);
           <blockquote cite="https://web.facebook.com/codingpoets/" class="fb-xfbml-parse-ignore"><a
               href="https://web.facebook.com/codingpoets/">Coding Poets</a></blockquote>
       </div>
-
+      <div>
+      <a class="twitter-timeline" data-width="350" data-height="400" href="https://twitter.com/The_Cyber_News?ref_src=twsrc%5Etfw">Tweets by The_Cyber_News</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
 
         <div class="section popular">
           <h2 class="section-title">Popular</h2>
