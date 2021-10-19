@@ -20,6 +20,7 @@
 
   <!-- Custom Styling -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/about.css">
 
   <title>Blog</title>
 </head>
@@ -29,29 +30,33 @@
     <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
     
 
-  <div class="about-section" style="background-image: url('assets/images/grey.jpg');"><br><br> <br><br></div>
-    
-
-   
-     
-      <div class="content clearfix">
-
-      <!-- Main Content Wrapper -->
-      <div class="main-contents-wrapper">
-        <div class="main-contents about">
-          
-          <div class="post-contents">
-          <h1 >Welcome</h1>
-              <p>Who we are and what we do.</p>
-              <p1>In cyber security whatever you do is neccessary work, the world of cyber crime and cyber security is constantly evolving.
+    <div class="hero" style="background-image: url('assets/images/lock.jpg')">
+        
+      
+        <div class="content">
+            <large>Want to know more about us?</large>
+            <h4>Meet Our <br> cyber security team</h4>
+            <button type="button">Take a tour </button>
+            <p1>In cyber security whatever you do is neccessary work, the world of cyber crime and cyber security is constantly evolving.
                   one goal is to always stay ahead of criminals. The biggest reward is the feeling you get when you play a role in protecting people's livelihoods. 
-                  We are passionate about bhelping you get all the informations you need about cyber crime thus getting you connected in any way possible. 
+                  We are passionate about helping you get all the informations you need about cyber crime thus getting you connected in any way possible. 
               </p1>
-          </div>
+            <!--<div>
+                <h1>TWITTER</h1>
+            </div>-->
+        </div>
+        <div class="bubbles">
+            <img src="assets/images/light.jpg" >
+            <img src="assets/images/light.jpg" >
+            <img src="assets/images/light.jpg" >
+            <img src="assets/images/light.jpg" >
+            <img src="assets/images/light.jpg" >
+            <img src="assets/images/light.jpg" >
+            <img src="assets/images/light.jpg" >
 
         </div>
-      </div>
-</div>
+
+    </div>
 
        
       <h2 style="text-align:center">Our Team</h2>
@@ -77,7 +82,7 @@
         <div class="container">
           <h2>Busi</h2>
           <p class="title">Intern, Bankseta Cyber Security</p>
-          <p>"Your fragile mind can't have forggotten the terrifyinh technothriller seriesknown 'Scorpion',
+          <p>"Your fragile mind can't have forggotten the terrifying technothriller series known 'Scorpion',
             because it features the worst hacking scenes ever broadcast in any medium"~Annalee Newitz.
           </p>
           <p>busi@standardbank.co.za</p>
@@ -92,7 +97,7 @@
         <div class="container">
           <h2>Ciddy</h2>
           <p class="title">Intern, Bankseta Cyber Security</p>
-          <p>"One of my favourite books about hackers is 'Masters of Deception'about this hacking group in the 1990s"~Harper Reed
+          <p>"One of my favourite books about hackers is 'Masters of Deception', it is about this hacking group in the 1990s"~Harper Reed
             <br>oh well
           </p>
           ciddy@standardbank.co.za</p>
@@ -100,6 +105,9 @@
         </div>
       </div>
     </div>
+</div>
+
+
  
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

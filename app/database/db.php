@@ -80,7 +80,7 @@ function create($table, $data)
         $i++;
     }
     
-    $stmt = executeQuery($sql, $data,);
+    $stmt = executeQuery($sql, $data);
     $id = $stmt->insert_id;
     //return htmlspecialchars($id, ENT_QUOTES, 'UTF-8');
     return $id;
