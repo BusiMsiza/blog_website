@@ -32,10 +32,7 @@ $posts = selectAll('posts', ['published' => 1]);
 
 <body>
   <!-- Facebook Page Plugin SDK -->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=285071545181837&autoLogAppEvents=1">
-  </script>
+ 
 
   <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 
@@ -63,12 +60,6 @@ $posts = selectAll('posts', ['published' => 1]);
 
       <!-- Sidebar -->
       <div class="sidebar single">
-
-      <div class="fb-page" data-href="https://web.facebook.com/codingpoets/" data-small-header="false"
-          data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <blockquote cite="https://web.facebook.com/codingpoets/" class="fb-xfbml-parse-ignore"><a
-              href="https://web.facebook.com/codingpoets/">Coding Poets</a></blockquote>
-      </div>
       <div>
       <a class="twitter-timeline" data-width="350" data-height="400" href="https://twitter.com/The_Cyber_News?ref_src=twsrc%5Etfw">Tweets by The_Cyber_News</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>

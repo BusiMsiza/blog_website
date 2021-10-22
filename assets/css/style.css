@@ -245,15 +245,12 @@ header .menu-toggle {
 .content {
   width: 90%;
   margin: 30px auto 30px;
- 
+  overflow-x: scroll;
 }
-
-
 
 .content .main-content {
   width: 70%;
   float: left;
-  
 
 }
 
