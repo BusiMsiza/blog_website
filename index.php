@@ -33,7 +33,7 @@ if (isset($_GET['t_id'])) {
   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 
   <!-- Custom Styling -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
   <title>Blog</title>
 </head>

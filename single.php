@@ -25,7 +25,7 @@ $posts = selectAll('posts', ['published' => 1]);
   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 
   <!-- Custom Styling -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
   <title><?php echo htmlspecialchars($post['title']); ?> | <?php echo $_SESSION['username']; ?></title>
 </head>

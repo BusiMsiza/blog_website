@@ -22,7 +22,7 @@ adminOnly()
             rel="stylesheet">
 
         <!-- Custom Styling -->
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
         <link rel="stylesheet" href="../assets/css/styling.css"> 
 
         <!-- Admin Styling -->
