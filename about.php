@@ -39,7 +39,7 @@
             <button type="button">Take a tour </button>
             <p1>In cyber security whatever you do is neccessary work, the world of cyber crime and cyber security is constantly evolving.
                   one goal is to always stay ahead of criminals. The biggest reward is the feeling you get when you play a role in protecting people's livelihoods. 
-                  We are passionate about helping you get all the informations you need about cyber crime thus getting you connected in any way possible. 
+                  We are passionate about helping you get all the informations you need about cyber crime thus getting you connected in any way possible. Scroll bellow to read more about our team.
               </p1>
             <!--<div>
                 <h1>TWITTER</h1>
@@ -69,7 +69,7 @@
           <h2>Mxolisi</h2>
           <p class="title">Intern, Bankseta Cyber Security</p>
           <p>"Hacking involves a different way of looking at problems no one's thought of"
-            ~.Walter O'Brien <br><br>interesting huh<br></p>
+            ~.Walter O'Brien <br><br>interesting huh?<br></p>
           <p>mxo@standardbank.co.za</p>
           <p><button class="button">Contact</button></p>
         </div>
