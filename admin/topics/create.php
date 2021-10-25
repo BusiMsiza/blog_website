@@ -21,7 +21,7 @@ adminOnly();
             rel="stylesheet">
 
         <!-- Custom Styling -->
-        <link rel="stylesheet" href="../../assets/css/style.css">
+        <link rel="stylesheet" href="../../assets/css/styles.css">
 
         <!-- Admin Styling -->
         <link rel="stylesheet" href="../../assets/css/adm.css">

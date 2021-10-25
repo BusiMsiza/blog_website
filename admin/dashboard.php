@@ -1,8 +1,7 @@
 <?php include("../path.php"); ?>
 <?php include(ROOT_PATH . "/app/controllers/posts.php"); 
+adminOnly()
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,8 +22,8 @@
             rel="stylesheet">
 
         <!-- Custom Styling -->
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/styl.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/styling.css"> 
 
         <!-- Admin Styling -->
         <link rel="stylesheet" href="../assets/css/adm.css">
@@ -77,6 +76,28 @@
                         
                     </div>
 
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card gradient-3">
+                            <div class="card-body">
+                                <h3 class="card-title text-white">Topics</h3>
+                                <div class="d-inline-block">
+                                <h2 class="text-white">
+                                        <?php
+                                            $query="SELECT COUNT(*) FROM topics  ";
+                                            $result = mysqli_query($conn,$query);
+
+                                            while($row = mysqli_fetch_assoc($result)){
+                                                echo   $row['COUNT(*)'];
+                                            }
+
+                                        ?>
+                                        </h2>
+                                </div>
+                                <span class="float-right display-5 opacity-5"><i class="fas fa-file"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="card gradient-2">
@@ -96,7 +117,7 @@
                                     </h2>
                                    
                                 </div>
-                                <span class="float-right display-5 opacity-5"><i class="fa fa-money"></i></span>
+                                <span class="float-right display-5 opacity-5"><i class="fas fa-newspaper"></i></span>
                             </div>
                         </div>
                     </div>
@@ -159,7 +180,7 @@
                         ?>
                         </tbody>
                         </table>
-
+                      
                 </div>
 
                

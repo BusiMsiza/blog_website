@@ -19,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css?family=Candal|Lora"
             rel="stylesheet">
 
-            <link rel="stylesheet" href="../../assets/css/style.css">
+            <link rel="stylesheet" href="../../assets/css/styles.css">
 
         <!-- Admin Styling -->
         <link rel="stylesheet" href="../../assets/css/adm.css">

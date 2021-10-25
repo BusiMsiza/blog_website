@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 
   <!-- Custom Styling -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
   <title>Register</title>
 </head>
@@ -31,7 +31,7 @@
     <form action="register.php" method="post">
       <h2 class="form-title">Register</h2>
 
-      
+      <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
       <div>
         <label>Username</label>
